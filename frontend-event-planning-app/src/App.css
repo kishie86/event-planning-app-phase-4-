@@ -1,0 +1,105 @@
+
+body {
+  background: var(--bodyBg);
+  font-family: var(--bodyFont);
+  color: var(--textColor);
+  line-height: 1.5;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+  font-family: 'Times New Roman', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: text-bottom;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+      h3 {
+          text-align: center;
+          position: absolute;
+          margin: 0;
+          width: 100%;
+          color: var(--white);
+          font-family: var(--headlinesFont);
+          font-size: 25px;
+          height: 100%;
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), transparent);
+          padding: 2.4rem 0 0;
+      }
+      
+          
+      .description {
+          margin: .3em 0 1.8em;
+      }
+
+      .container {
+        padding: 1rem;
+        width: stretch;
+        height: auto;
+        background: #515DA2;
+        opacity: .8;
+      }
+
+      .card {
+       
+        text-align: center;
+        border: grey solid 1px;
+        padding: 1rem;
+        width: 15rem;
+        height: 25rem;
+        display: inline-grid;
+        margin: 1rem 2rem;
+        box-shadow: 3px 4px #4b61e0
+      }
+
+      .wedding{
+        text-align: center;
+        border: red solid 2x;
+        padding: 1rem;
+        width: 15;
+        margin: 1rem 2rem;
+        box-shadow: 3px 4px rgb(10, 9, 0)
+        
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .search-bar{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+
+    
+
+     
+        
+      
